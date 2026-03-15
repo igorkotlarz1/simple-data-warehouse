@@ -1,0 +1,8 @@
+# ignoring csv data but keeping the directory visible in the project structure
+data/*
+!data/.gitkeep
+
+# ignoring sql server related files
+*.mdf
+*.ldf
+*.ndf
